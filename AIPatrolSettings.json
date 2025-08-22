@@ -1,0 +1,1128 @@
+{
+    "m_Version": 24,
+    "Enabled": 1,
+    "FormationScale": -1.0,
+    "DespawnTime": 1800,
+    "RespawnTime": 1800,
+    "MinDistRadius": 500,
+    "MaxDistRadius": 1000.0,
+    "DespawnRadius": 500.0,
+    "AccuracyMin": 0.00,
+    "AccuracyMax": 0.50,
+    "ThreatDistanceLimit": 100.0,
+    "NoiseInvestigationDistanceLimit": 200.0,
+    "DamageMultiplier": 1.0,
+    "DamageReceivedMultiplier": 1.0,
+    "LoadBalancingCategories": {
+        "Global": [],
+        "Example": [],
+        "Quest": [],
+        "ObjectPatrol": [],
+        "HelicopterWreck": [],
+        "ContaminatedArea": [],
+        "Patrol": []
+								},
+    "ObjectPatrols": [],
+    "Patrols": [
+        {
+            "Name": "FireFighterLoadout",
+            "Persist": 1,
+            "Faction": "Guards",
+            "Formation": "RANDOM",
+            "FormationScale": -1.0,
+            "FormationLooseness": 5.0,
+            "Loadout": "FireFighterLoadout",
+            "Units": [],
+            "NumberOfAI": -4,
+            "Behaviour": "HALT_OR_LOOP",
+            "LootingBehaviour": "ALL",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 200.0,
+            "AccuracyMin": 0.25,
+            "AccuracyMax": 0.75,
+            "ThreatDistanceLimit": 100.0,
+            "NoiseInvestigationDistanceLimit": 200.0,
+            "DamageMultiplier": 1.0,
+            "DamageReceivedMultiplier": 1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1,
+            "MaxDistRadius": -1,
+            "DespawnRadius": -1,
+            "MinSpreadRadius": 10.0,
+            "MaxSpreadRadius": 50.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "UniformCubic",
+            "DespawnTime": -1,
+            "RespawnTime": -2,
+            "LoadBalancingCategory": "",
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    5853.0,
+                    31.0,
+                    2312.0
+                ],
+                [
+                    6192.0,
+                    13.0,
+                    2374.0
+                ],
+                [
+                    6776.0,
+                    18.0,
+                    2884.0
+                ],
+                [
+                    7891.0,
+                    7.0,
+                    3168.0
+                ],
+                [
+                    8389.0,
+                    7.0,
+                    2945.0
+                ],
+                [
+                    9004.0,
+                    8.0,
+                    2050.0
+                ],
+                [
+                    9868.0,
+                    7.0,
+                    1982.0
+                ],
+                [
+                    10600.0,
+                    35.0,
+                    2523.0
+                ],
+                [
+                    10715.0,
+                    77.0,
+                    2883.0
+                ]
+            ]
+        },
+        {
+            "Name": "BanditLoadout",
+            "Persist": 1,
+            "Faction": "Guards",
+            "Formation": "RANDOM",
+            "FormationScale": -1.0,
+            "FormationLooseness": 5.0,
+            "Loadout": "BanditLoadout",
+            "Units": [],
+            "NumberOfAI": -4,
+            "Behaviour": "HALT_OR_ALTERNATE",
+            "LootingBehaviour": "ALL",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 200.0,
+            "AccuracyMin": 0.25,
+            "AccuracyMax": 0.75,
+            "ThreatDistanceLimit": 100.0,
+            "NoiseInvestigationDistanceLimit": 200.0,
+            "DamageMultiplier": 1.0,
+            "DamageReceivedMultiplier": 1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1,
+            "MaxDistRadius": -1,
+            "DespawnRadius": -1,
+            "MinSpreadRadius": 10.0,
+            "MaxSpreadRadius": 50.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "UniformCubic",
+            "DespawnTime": -1,
+            "RespawnTime": -2,
+            "LoadBalancingCategory": "",
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    4045.0,
+                    376.0,
+                    11861.0
+                ],
+                [
+                    4002.0,
+                    376.0,
+                    11783.0
+                ],
+                [
+                    4084.0,
+                    380.0,
+                    11725.0
+                ],
+                [
+                    4045.0,
+                    374.0,
+                    11695.0
+                ],
+                [
+                    4072.0,
+                    370.0,
+                    11615.0
+                ],
+                [
+                    4163.0,
+                    372.0,
+                    11636.0
+                ],
+                [
+                    4217.0,
+                    376.0,
+                    11604.0
+                ],
+                [
+                    4234.0,
+                    376.0,
+                    11586.0
+                ],
+                [
+                    4250.0,
+                    378.0,
+                    11552.0
+                ],
+                [
+                    4250.0,
+                    373.0,
+                    11506.0
+                ],
+                [
+                    4128.0,
+                    354.0,
+                    11354.0
+                ],
+                [
+                    4109.0,
+                    346.0,
+                    11268.0
+                ],
+                [
+                    4083.0,
+                    343.0,
+                    11197.0
+                ],
+                [
+                    3996.0,
+                    339.0,
+                    10835.0
+                ],
+                [
+                    4703.0,
+                    340.0,
+                    10546.0
+                ],
+                [
+                    4412.0,
+                    340.0,
+                    10203.0
+                ],
+                [
+                    4868.0,
+                    340.0,
+                    10120.0
+                ],
+                [
+                    4535.0,
+                    340.0,
+                    9796.0
+                ],
+                [
+                    4570.0,
+                    340.0,
+                    9463.0
+                ],
+                [
+                    5021.0,
+                    341.0,
+                    9640.0
+                ]
+            ]
+        },
+        {
+            "Name": "YeetBrigadeLoadout",
+            "Persist": 1,
+            "Faction": "Guards",
+            "Formation": "Vee",
+            "FormationScale": -1.0,
+            "FormationLooseness": 5.0,
+            "Loadout": "YeetBrigadeLoadout",
+            "Units": [],
+            "NumberOfAI": -4,
+            "Behaviour": "HALT_OR_LOOP",
+            "LootingBehaviour": "ALL",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 200.0,
+            "AccuracyMin": 0.25,
+            "AccuracyMax": 0.75,
+            "ThreatDistanceLimit": 100.0,
+            "NoiseInvestigationDistanceLimit": 200.0,
+            "DamageMultiplier": 1.0,
+            "DamageReceivedMultiplier": 1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1,
+            "MaxDistRadius": -1,
+            "DespawnRadius": -1,
+            "MinSpreadRadius": 10.0,
+            "MaxSpreadRadius": 50.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "UniformCubic",
+            "DespawnTime": -1,
+            "RespawnTime": -2,
+            "LoadBalancingCategory": "",
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    1281.0,
+                    456.0,
+                    14509.0
+                ],
+                [
+                    1297.0,
+                    469.0,
+                    14475.0
+                ],
+                [
+                    1038.0,
+                    456.0,
+                    14671.0
+                ],
+                [
+                    914.0,
+                    457.0,
+                    14723.0
+                ],
+                [
+                    1342.0,
+                    458.0,
+                    14469.0
+                ]
+            ]
+        },
+        {
+            "Name": "SurvivorLoadout",
+            "Persist": 1,
+            "Faction": "Civilian",
+            "Formation": "Wall",
+            "FormationScale": -1.0,
+            "FormationLooseness": 5.0,
+            "Loadout": "SurvivorLoadout",
+            "Units": [],
+            "NumberOfAI": -4,
+            "Behaviour": "ROAMING",
+            "LootingBehaviour": "ALL",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 200.0,
+            "AccuracyMin": 0.25,
+            "AccuracyMax": 0.75,
+            "ThreatDistanceLimit": 100.0,
+            "NoiseInvestigationDistanceLimit": 200.0,
+            "DamageMultiplier": 1.0,
+            "DamageReceivedMultiplier": 1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1,
+            "MaxDistRadius": -1,
+            "DespawnRadius": -1,
+            "MinSpreadRadius": 10.0,
+            "MaxSpreadRadius": 50.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "UniformCubic",
+            "DespawnTime": -1,
+            "RespawnTime": -2,
+            "LoadBalancingCategory": "",
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    1626.0,
+                    367.0,
+                    2555.0
+                ],
+                [
+                    7625.0,
+                    259.0,
+                    14106.0
+                ],
+                [
+                    13203.0,
+                    66.0,
+                    4407.0
+                ],
+                [
+                    1623.0,
+                    240.0,
+                    9328.0
+                ],
+                [
+                    11942.0,
+                    25.0,
+                    9729.0
+                ]
+            ]
+        },
+        {
+            "Name": "YellowKingLoadout",
+            "Persist": 1,
+            "Faction": "Passive",
+            "Formation": "RANDOM",
+            "FormationScale": -1.0,
+            "FormationLooseness": 5.0,
+            "Loadout": "YellowKingLoadout",
+            "Units": [],
+            "NumberOfAI": -4,
+            "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "ALL",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 200.0,
+            "AccuracyMin": 0.25,
+            "AccuracyMax": 0.75,
+            "ThreatDistanceLimit": 100.0,
+            "NoiseInvestigationDistanceLimit": 200.0,
+            "DamageMultiplier": 1.0,
+            "DamageReceivedMultiplier": 1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1,
+            "MaxDistRadius": -1,
+            "DespawnRadius": -1,
+            "MinSpreadRadius": 10.0,
+            "MaxSpreadRadius": 50.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "UniformCubic",
+            "DespawnTime": -1,
+            "RespawnTime": -2,
+            "LoadBalancingCategory": "",
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    3470.0,
+                    194.0,
+                    12987.0
+                ],
+                [
+                    8077.0,
+                    113.0,
+                    12768.0
+                ],
+                [
+                    11618.0,
+                    59.0,
+                    14663.0
+                ],
+                [
+                    13951.0,
+                    20.0,
+                    13200.0
+                ],
+                [
+                    12815.0,
+                    7.0,
+                    9802.0
+                ],
+                [
+                    13416.0,
+                    7.0,
+                    6169.0
+                ],
+                [
+                    12102.0,
+                    7.0,
+                    3525.0
+                ],
+                [
+                    10258.0,
+                    9.0,
+                    2000.0
+                ],
+                [
+                    6560.0,
+                    7.0,
+                    2465.0
+                ],
+                [
+                    4500.0,
+                    7.0,
+                    2452.0
+                ],
+                [
+                    1909.0,
+                    7.0,
+                    2244.0
+                ],
+                [
+                    1691.0,
+                    145.0,
+                    3845.0
+                ],
+                [
+                    2736.0,
+                    205.0,
+                    5287.0
+                ],
+                [
+                    3812.0,
+                    312.0,
+                    8992.0
+                ],
+                [
+                    1856.0,
+                    260.0,
+                    11490.0
+                ]
+            ]
+        },
+		{
+            "Name": "PlayerSurvivorLoadout",
+            "Persist": 1,
+            "Faction": "Passive",
+            "Formation": "RANDOM",
+            "FormationScale": -1.0,
+            "FormationLooseness": 5.0,
+            "Loadout": "PlayerSurvivorLoadout",
+            "Units": [],
+            "NumberOfAI": -10,
+            "Behaviour": "HALT_OR_ALTERNATE",
+            "LootingBehaviour": "ALL",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 200.0,
+            "AccuracyMin": 0.25,
+            "AccuracyMax": 0.75,
+            "ThreatDistanceLimit": 100.0,
+            "NoiseInvestigationDistanceLimit": 200.0,
+            "DamageMultiplier": 1.0,
+            "DamageReceivedMultiplier": 1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1,
+            "MaxDistRadius": -1,
+            "DespawnRadius": -1,
+            "MinSpreadRadius": 10.0,
+            "MaxSpreadRadius": 50.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "UniformCubic",
+            "DespawnTime": -1,
+            "RespawnTime": -2,
+            "LoadBalancingCategory": "",
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    11604.0,
+                    58.0,
+                    14715.0
+                ],
+                [
+                    11480.0,
+                    59.0,
+                    14915.0
+                ],
+                [
+                    11363.0,
+                    89.0,
+                    14631.0
+                ],
+                [
+                    11369.0,
+                    47.0,
+                    14463.0
+                ]
+            ]
+        },
+        {
+            "Name": "PlayerMaleSuitLoadout",
+            "Persist": 1,
+            "Faction": "Passive",
+            "Formation": "RANDOM",
+            "FormationScale": -1.0,
+            "FormationLooseness": 5.0,
+            "Loadout": "PlayerMaleSuitLoadout",
+            "Units": [],
+            "NumberOfAI": -10,
+            "Behaviour": "HALT_OR_ALTERNATE",
+            "LootingBehaviour": "ALL",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 200.0,
+            "AccuracyMin": 0.25,
+            "AccuracyMax": 0.75,
+            "ThreatDistanceLimit": 100.0,
+            "NoiseInvestigationDistanceLimit": 200.0,
+            "DamageMultiplier": 1.0,
+            "DamageReceivedMultiplier": 1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1,
+            "MaxDistRadius": -1,
+            "DespawnRadius": -1,
+            "MinSpreadRadius": 10.0,
+            "MaxSpreadRadius": 50.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "UniformCubic",
+            "DespawnTime": -1,
+            "RespawnTime": -2,
+            "LoadBalancingCategory": "",
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    11540.0,
+                    45.0,
+                    14447.0
+                ],
+                [
+                    11646.0,
+                    43.0,
+                    14466.0
+                ],
+                [
+                    11563.0,
+                    58.0,
+                    14582.0
+                ],
+                [
+                    11690.0,
+                    58.0,
+                    14660.0
+                ]
+            ]
+        },
+        {
+            "Name": "PlayerFemaleSuitLoadout",
+            "Persist": 1,
+            "Faction": "Passive",
+            "Formation": "RANDOM",
+            "FormationScale": -1.0,
+            "FormationLooseness": 5.0,
+            "Loadout": "PlayerFemaleSuitLoadout",
+            "Units": [],
+            "NumberOfAI": -10,
+            "Behaviour": "HALT_OR_LOOP",
+            "LootingBehaviour": "ALL",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 200.0,
+            "AccuracyMin": 0.25,
+            "AccuracyMax": 0.75,
+            "ThreatDistanceLimit": 100.0,
+            "NoiseInvestigationDistanceLimit": 200.0,
+            "DamageMultiplier": 1.0,
+            "DamageReceivedMultiplier": 1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1,
+            "MaxDistRadius": -1,
+            "DespawnRadius": -1,
+            "MinSpreadRadius": 10.0,
+            "MaxSpreadRadius": 50.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "UniformCubic",
+            "DespawnTime": -1,
+            "RespawnTime": -2,
+            "LoadBalancingCategory": "",
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    11795.0,
+                    34.0,
+                    14356.0
+                ],
+                [
+                    11741.0,
+                    43.0,
+                    14436.0
+                ],
+                [
+                    11672.0,
+                    44.0,
+                    14530.0
+                ],
+                [
+                    11616.0,
+                    58.0,
+                    14615.0
+                ],
+                [
+                    11654.0,
+                    58.0,
+                    14666.0
+                ],
+                [
+                    11579.0,
+                    59.0,
+                    14797.0
+                ]
+            ]
+        },
+        {
+            "Name": "NBCLoadout",
+            "Persist": 1,
+            "Faction": "Guards",
+            "Formation": "RANDOM",
+            "FormationScale": -1.0,
+            "FormationLooseness": 5.0,
+            "Loadout": "NBCLoadout",
+            "Units": [],
+            "NumberOfAI": -4,
+            "Behaviour": "ROAMING",
+            "LootingBehaviour": "ALL",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 200.0,
+            "AccuracyMin": 0.25,
+            "AccuracyMax": 0.75,
+            "ThreatDistanceLimit": 100.0,
+            "NoiseInvestigationDistanceLimit": 200.0,
+            "DamageMultiplier": 1.0,
+            "DamageReceivedMultiplier": 1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1,
+            "MaxDistRadius": -1,
+            "DespawnRadius": -1,
+            "MinSpreadRadius": 10.0,
+            "MaxSpreadRadius": 50.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "UniformCubic",
+            "DespawnTime": -1,
+            "RespawnTime": -2,
+            "LoadBalancingCategory": "",
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    13271.0,
+                    11.0,
+                    6091.0
+                ],
+                [
+                    13235.0,
+                    31.0,
+                    6060.0
+                ],
+                [
+                    13272.0,
+                    22.0,
+                    6073.0
+                ],
+                [
+                    13237.0,
+                    11.0,
+                    6087.0
+                ]
+            ]
+        },
+        {
+            "Name": "EastLoadout",
+            "Persist": 1,
+            "Faction": "Guards",
+            "Formation": "RANDOM",
+            "FormationScale": -1.0,
+            "FormationLooseness": 5.0,
+            "Loadout": "EastLoadout",
+            "Units": [],
+            "NumberOfAI": -4,
+            "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "ALL",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 200.0,
+            "AccuracyMin": 0.25,
+            "AccuracyMax": 0.75,
+            "ThreatDistanceLimit": 100.0,
+            "NoiseInvestigationDistanceLimit": 200.0,
+            "DamageMultiplier": 1.0,
+            "DamageReceivedMultiplier": 1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1,
+            "MaxDistRadius": -1,
+            "DespawnRadius": -1,
+            "MinSpreadRadius": 10.0,
+            "MaxSpreadRadius": 50.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "UniformCubic",
+            "DespawnTime": -1,
+            "RespawnTime": -2,
+            "LoadBalancingCategory": "",
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    4375.0,
+                    467.0,
+                    15013.0
+                ],
+                [
+                    4335.0,
+                    438.0,
+                    15030.0
+                ],
+                [
+                    4387.0,
+                    472.0,
+                    15010.0
+                ],
+                [
+                    4348.0,
+                    450.0,
+                    15025.0
+                ],
+                [
+                    4382.0,
+                    447.0,
+                    15015.0
+                ]
+            ]
+        },
+        {
+            "Name": "EastLoadout",
+            "Persist": 0,
+            "Faction": "Guards",
+            "Formation": "RANDOM",
+            "FormationScale": -1.0,
+            "FormationLooseness": 0.0,
+            "Loadout": "EastLoadout",
+            "Units": [],
+            "NumberOfAI": -4,
+            "Behaviour": "HALT_OR_ALTERNATE",
+            "LootingBehaviour": "ALL",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 200.0,
+            "AccuracyMin": 0.25,
+            "AccuracyMax": 0.75,
+            "ThreatDistanceLimit": 100.0,
+            "NoiseInvestigationDistanceLimit": 200.0,
+            "DamageMultiplier": 1.0,
+            "DamageReceivedMultiplier": 1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1,
+            "MaxDistRadius": -1,
+            "DespawnRadius": -1,
+            "MinSpreadRadius": 10.0,
+            "MaxSpreadRadius": 50.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "UniformCubic",
+            "DespawnTime": -1,
+            "RespawnTime": -2,
+            "LoadBalancingCategory": "",
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    13080.0,
+                    23.0,
+                    3021.0
+                ],
+                [
+                    13347.0,
+                    29.0,
+                    7259.0
+                ],
+                [
+                    13082.0,
+                    6.0,
+                    2742.0
+                ],
+                [
+                    13845.0,
+                    5.0,
+                    2740.0
+                ],
+                [
+                    13548.0,
+                    46.0,
+                    3046.0
+                ]
+            ]
+        },
+        {
+            "Name": "PoliceLoadout",
+            "Persist": 0,
+            "Faction": "Guards",
+            "Formation": "RANDOM",
+            "FormationScale": -1.0,
+            "FormationLooseness": 10.0,
+            "Loadout": "PoliceLoadout",
+            "Units": [],
+            "NumberOfAI": -4,
+            "Behaviour": "HALT_OR_LOOP",
+            "LootingBehaviour": "ALL",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 200.0,
+            "AccuracyMin": 0.25,
+            "AccuracyMax": 0.75,
+            "ThreatDistanceLimit": 100.0,
+            "NoiseInvestigationDistanceLimit": 200.0,
+            "DamageMultiplier": 1.0,
+            "DamageReceivedMultiplier": 1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1,
+            "MaxDistRadius": -1,
+            "DespawnRadius": -1,
+            "MinSpreadRadius": 10.0,
+            "MaxSpreadRadius": 50.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "UniformCubic",
+            "DespawnTime": -1,
+            "RespawnTime": -2,
+            "LoadBalancingCategory": "",
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    5558.0,
+                    491.0,
+                    15011.0
+                ],
+                [
+                    5484.0,
+                    491.0,
+                    15100.0
+                ],
+                [
+                    5485.0,
+                    534.0,
+                    14998.0
+                ]
+            ]
+        },
+        {
+            "Name": "WestLoadout",
+            "Persist": 0,
+            "Faction": "Guards",
+            "Formation": "RANDOM",
+            "FormationScale": -1.0,
+            "FormationLooseness": 10.0,
+            "Loadout": "WestLoadout",
+            "Units": [],
+            "NumberOfAI": -4,
+            "Behaviour": "ROAMING",
+            "LootingBehaviour": "ALL",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 200.0,
+            "AccuracyMin": 0.25,
+            "AccuracyMax": 0.75,
+            "ThreatDistanceLimit": 100.0,
+            "NoiseInvestigationDistanceLimit": 200.0,
+            "DamageMultiplier": 1.0,
+            "DamageReceivedMultiplier": 1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1,
+            "MaxDistRadius": -1,
+            "DespawnRadius": -1,
+            "MinSpreadRadius": 10.0,
+            "MaxSpreadRadius": 50.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "UniformCubic",
+            "DespawnTime": -1,
+            "RespawnTime": -2,
+            "LoadBalancingCategory": "",
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    8793,
+                    198,
+                    2900
+                ],
+                [
+                    8781,
+                    178,
+                    2917
+                ],
+                [
+                    8803,
+                    188,
+                    2919
+                ]
+            ]
+        },
+        {
+            "Name": "WestLoadout",
+            "Persist": 0,
+            "Faction": "Guards",
+            "Formation": "RANDOM",
+            "FormationScale": -1.0,
+            "FormationLooseness": 5.0,
+            "Loadout": "WestLoadout",
+            "Units": [],
+            "NumberOfAI": -4,
+            "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "ALL",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 200.0,
+            "AccuracyMin": 0.25,
+            "AccuracyMax": 0.75,
+            "ThreatDistanceLimit": 100.0,
+            "NoiseInvestigationDistanceLimit": 200.0,
+            "DamageMultiplier": 1.0,
+            "DamageReceivedMultiplier": 1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1,
+            "MaxDistRadius": -1,
+            "DespawnRadius": -1,
+            "MinSpreadRadius": 10.0,
+            "MaxSpreadRadius": 50.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "UniformCubic",
+            "DespawnTime": -1,
+            "RespawnTime": -2,
+            "LoadBalancingCategory": "",
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    15306.0,
+                    99.0,
+                    14612.0
+                ],
+                [
+                    15280.0,
+                    181.0,
+                    14863.0
+                ],
+                [
+                    15071.0,
+                    160.0,
+                    14755.0
+                ],
+                [
+                    14703.0,
+                    107.0,
+                    14901.0
+                ],
+                [
+                    14830.0,
+                    73.0,
+                    14571.0
+                ],
+                [
+                    14339.0,
+                    127.0,
+                    14829.0
+                ],
+                [
+                    14013.0,
+                    140.0,
+                    15071.0
+                ],
+                [
+                    13105.0,
+                    49.0,
+                    14965.0
+                ],
+                [
+                    12339.0,
+                    133.0,
+                    14881.0
+                ]
+            ]
+        },
+        {
+            "Name": "NBCLoadout",
+            "Persist": 0,
+            "Faction": "Guards",
+            "Formation": "RANDOM",
+            "FormationScale": -1.0,
+            "FormationLooseness": 5.0,
+            "Loadout": "NBCLoadout",
+            "Units": [],
+            "NumberOfAI": -4,
+            "Behaviour": "HALT_OR_ALTERNATE",
+            "LootingBehaviour": "ALL",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 200.0,
+            "AccuracyMin": 0.25,
+            "AccuracyMax": 0.75,
+            "ThreatDistanceLimit": 100.0,
+            "NoiseInvestigationDistanceLimit": 200.0,
+            "DamageMultiplier": 1.0,
+            "DamageReceivedMultiplier": 1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1,
+            "MaxDistRadius": -1,
+            "DespawnRadius": -1,
+            "MinSpreadRadius": 10.0,
+            "MaxSpreadRadius": 50.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "UniformCubic",
+            "DespawnTime": -1,
+            "RespawnTime": -2,
+            "LoadBalancingCategory": "",
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    15199.0,
+                    123.0,
+                    11414.0
+                ],
+                [
+                    15168.0,
+                    66.0,
+                    11401.0
+                ],
+                [
+                    15181.0,
+                    76.0,
+                    11390.0
+                ],
+                [
+                    15117.0,
+                    15.0,
+                    11517.0
+                ],
+                [
+                    15292.0,
+                    50.0,
+                    11399.0
+                ],
+                [
+                    15292.0,
+                    50.0,
+                    11399.0
+                ],
+                [
+                    15292.0,
+                    50.0,
+                    11399.0
+                ],
+                [
+                    15181.0,
+                    56.0,
+                    11413.0
+                ],
+                [
+                    15182.0,
+                    116.0,
+                    11401.0
+                ]
+            ]
+        }
+    ]
+}

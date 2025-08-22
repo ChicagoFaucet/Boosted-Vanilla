@@ -1,0 +1,273 @@
+{
+    "ServerMessageType": 2,
+    "Active_Portals_Min": 2,
+    "Active_Portals_Max": 2,
+    "Portal_Creator": [
+        {
+            "PortalAreaName": "Krona Castle",
+            "PortalAreaSound": 1,
+            "PortalSoundTriggerRadius": 15.0,
+            "PortalAreaSoundActiveTime": 10,
+            "RequiredItemToTeleportActive": 0,
+            "RequiredTeleportItem": [],
+            "TimeUntilTeleport": 10,
+            "CanTeleportInCar": 1,
+            "Classname_Portal_Object": "land_Hidden_Portal_Centre_small",
+            "Portal_Position": [
+                1385.48,
+                326.803,
+                9260.14
+            ],
+            "Portal_Orientation": [
+                63.0,
+                0.0,
+                0.0
+            ],
+            "Trigger_Area_Min": [
+                -2.0,
+                -2.0,
+                -2.0
+            ],
+            "Trigger_Area_Max": [
+                2.0,
+                2.0,
+                2.0
+            ],
+            "Teleport_Destination": [
+                [
+                    14000,
+					30,
+					10000
+                ]
+            ]
+        },
+        {
+            "PortalAreaName": "Green Mountain Antenna",
+            "PortalAreaSound": 1,
+            "PortalSoundTriggerRadius": 15.0,
+            "PortalAreaSoundActiveTime": 10,
+            "RequiredItemToTeleportActive": 0,
+            "RequiredTeleportItem": [],
+            "TimeUntilTeleport": 10,
+            "CanTeleportInCar": 1,
+            "Classname_Portal_Object": "land_Hidden_Portal_Centre_small",
+            "Portal_Position": [
+                3717.61,
+                423.317,
+                5987.47
+            ],
+            "Portal_Orientation": [
+                81.0,
+                340.0,
+                0.0
+            ],
+            "Trigger_Area_Min": [
+                -2.0,
+                -2.0,
+                -2.0
+            ],
+            "Trigger_Area_Max": [
+                2.0,
+                2.0,
+                2.0
+            ],
+            "Teleport_Destination": [
+                [
+                    15069,
+					185,
+					14846
+                ]
+            ]
+        },
+		{
+            "PortalAreaName": "Stary Yar East",
+            "PortalAreaSound": 1,
+            "PortalSoundTriggerRadius": 15.0,
+            "PortalAreaSoundActiveTime": 10,
+            "RequiredItemToTeleportActive": 0,
+            "RequiredTeleportItem": [],
+            "TimeUntilTeleport": 10,
+            "CanTeleportInCar": 1,
+            "Classname_Portal_Object": "land_Stargate_Portal",
+            "Portal_Position": [
+                5421.8,
+                492.648,
+                15081
+            ],
+            "Portal_Orientation": [
+                99.0,
+                0.0,
+                350
+            ],
+            "Trigger_Area_Min": [
+                -2.0,
+                -2.0,
+                -2.0
+            ],
+            "Trigger_Area_Max": [
+                2.0,
+                2.0,
+                2.0
+            ],
+            "Teleport_Destination": [
+                [
+                    15500,
+					30,
+					11260
+                ]
+            ]
+        },
+        {
+            "PortalAreaName": "Black Lake",
+            "PortalAreaSound": 1,
+            "PortalSoundTriggerRadius": 15.0,
+            "PortalAreaSoundActiveTime": 10,
+            "RequiredItemToTeleportActive": 0,
+            "RequiredTeleportItem": [],
+            "TimeUntilTeleport": 10,
+            "CanTeleportInCar": 1,
+            "Classname_Portal_Object": "land_Stargate_Portal_2",
+            "Portal_Position": [
+                13226.7,
+                89.079,
+                12072.5
+            ],
+            "Portal_Orientation": [
+                126,
+                0.0,
+                4.1
+            ],
+            "Trigger_Area_Min": [
+                -2.0,
+                -2.0,
+                -2.0
+            ],
+            "Trigger_Area_Max": [
+                2.0,
+                2.0,
+                2.0
+            ],
+            "Teleport_Destination": [
+                [
+                    1182,
+					456,
+					14553
+                ]
+            ]
+        },
+		{
+            "PortalAreaName": "Northwest Airfield",
+            "PortalAreaSound": 1,
+            "PortalSoundTriggerRadius": 15.0,
+            "PortalAreaSoundActiveTime": 10,
+            "RequiredItemToTeleportActive": 0,
+            "RequiredTeleportItem": [],
+            "TimeUntilTeleport": 10,
+            "CanTeleportInCar": 1,
+            "Classname_Portal_Object": "land_Stargate_Portal_2",
+            "Portal_Position": [
+                3789.74,
+                322.457,
+                10928.9
+            ],
+            "Portal_Orientation": [
+                9.0,
+                0.0,
+                0.0
+            ],
+            "Trigger_Area_Min": [
+                -2.0,
+                -2.0,
+                -2.0
+            ],
+            "Trigger_Area_Max": [
+                2.0,
+                2.0,
+                2.0
+            ],
+            "Teleport_Destination": [
+                [
+                    6468,
+					466,
+					14971
+                ]
+            ]
+        },
+        {
+            "PortalAreaName": "Rify Off-Shore Station",
+            "PortalAreaSound": 1,
+            "PortalSoundTriggerRadius": 15.0,
+            "PortalAreaSoundActiveTime": 10,
+            "RequiredItemToTeleportActive": 0,
+            "RequiredTeleportItem": [],
+            "TimeUntilTeleport": 10,
+            "CanTeleportInCar": 1,
+            "Classname_Portal_Object": "land_Hidden_Portal_Centre_small",
+            "Portal_Position": [
+                15072.6,
+                1.77455,
+                114022.3
+            ],
+            "Portal_Orientation": [
+                315,
+                15.2,
+                350
+            ],
+            "Trigger_Area_Min": [
+                -2.0,
+                -2.0,
+                -2.0
+            ],
+            "Trigger_Area_Max": [
+                2.0,
+                2.0,
+                2.0
+            ],
+            "Teleport_Destination": [
+                [
+                    13217.2,
+					47,
+					11311
+                ]
+            ]
+        },
+		{
+            "PortalAreaName": "Northeast Bunker",
+            "PortalAreaSound": 1,
+            "PortalSoundTriggerRadius": 15.0,
+            "PortalAreaSoundActiveTime": 10,
+            "RequiredItemToTeleportActive": 0,
+            "RequiredTeleportItem": [],
+            "TimeUntilTeleport": 10,
+            "CanTeleportInCar": 1,
+            "Classname_Portal_Object": "land_Stargate_Portal",
+            "Portal_Position": [
+                15043,
+                159.72,
+                14816.8
+            ],
+            "Portal_Orientation": [
+                234.4,
+                42.1,
+                0.0
+            ],
+            "Trigger_Area_Min": [
+                -2.0,
+                -2.0,
+                -2.0
+            ],
+            "Trigger_Area_Max": [
+                2.0,
+                2.0,
+                2.0
+            ],
+            "Teleport_Destination": [
+                [
+                    4465,
+					339,
+					10370
+                ]
+            ]
+        }
+    ]
+}
